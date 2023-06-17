@@ -1,0 +1,31 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:transparent;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #a7a5a5;
+}
+a.active_class{
+  color: red;
+  border-bottom: 1px solid green;
+}
+body  {
+  background-image: url("https://www.freecodecamp.org/news/content/images/size/w2000/2021/07/kobu-agency-ipARHaxETRk-unsplash.jpg");
+  background-color: #cccccc;
+}
